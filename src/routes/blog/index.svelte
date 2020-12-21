@@ -1,0 +1,2 @@
+<h1>Blog page</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse molestias, ducimus sapiente, repellat quibusdam ea obcaecati a veritatis fuga unde cum sint adipisci dicta eaque?</p>

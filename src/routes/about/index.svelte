@@ -1,0 +1,3 @@
+<h1>About Page</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae in, fuga itaque quam accusamus fugiat voluptatibus illo praesentium quisquam saepe! Odit officiis placeat nisi iusto.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nesciunt tempore doloribus odio sunt eius? Dicta in possimus doloribus dolor, exercitationem quos! Vero itaque, quis nemo eos consequatur accusantium nihil illum ex eius obcaecati!</p>
