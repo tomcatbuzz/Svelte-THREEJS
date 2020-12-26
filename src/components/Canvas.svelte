@@ -4,6 +4,7 @@
   import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
   import load from 'load-asset';
   import gsap from 'gsap';
+  
   class Sketch {
     constructor(canvas,images,start) {
       this.scene = new THREE.Scene();
@@ -56,7 +57,7 @@
       this.material.uniforms.t2.value = nextTexture
       this.material.uniforms.t2.value.needsUpdate = true;
       gsap.to(this.material.uniforms.progress,{
-          duration: 2,
+          duration: 1,
           value: 1,
           onComplete:()=> {
               this.material.uniforms.progress.value = 0;
@@ -174,6 +175,7 @@
     }
   }
   let sketch;
+
   export let page;
   let CanvasElement;
   afterUpdate(()=>{
@@ -190,7 +192,5 @@
       },page)
   })
 </script>
-
-
 
 <canvas bind:this={CanvasElement} />
