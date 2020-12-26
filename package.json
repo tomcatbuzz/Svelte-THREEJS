@@ -11,5 +11,10 @@
 		"@sveltejs/kit": "0.0.27",
 		"@sveltejs/snowpack-config": "0.0.7",
 		"svelte": "^3.29.0"
+	},
+	"dependencies": {
+		"gsap": "npm:@gsap/shockingly@^3.5.1",
+		"load-asset": "^1.2.0",
+		"three": "^0.124.0"
 	}
 }

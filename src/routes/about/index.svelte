@@ -1,3 +1,14 @@
-<h1>About Page</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae in, fuga itaque quam accusamus fugiat voluptatibus illo praesentium quisquam saepe! Odit officiis placeat nisi iusto.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nesciunt tempore doloribus odio sunt eius? Dicta in possimus doloribus dolor, exercitationem quos! Vero itaque, quis nemo eos consequatur accusantium nihil illum ex eius obcaecati!</p>
+<script>
+	import { fade } from 'svelte/transition';
+	import { customtransition } from "$components/transition"
+</script>
+
+<svelte:head>
+	<title>About</title>
+</svelte:head>
+
+<div class="content" in:customtransition out:fade>
+	<h1>About this site</h1>
+	
+	<p>This is the 'about' page. There's not much here.</p>
+</div>

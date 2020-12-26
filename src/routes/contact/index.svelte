@@ -1,2 +1,14 @@
-<h1>Contacts page</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsa vel reiciendis obcaecati nisi voluptatum cum aspernatur! Animi odit reiciendis ad sit. Repudiandae necessitatibus saepe eos quibusdam nam facilis cum.</p>
+<script>
+	import { fade } from 'svelte/transition';
+	import { customtransition } from "$components/transition"
+</script>
+
+<svelte:head>
+	<title>Contact</title>
+</svelte:head>
+
+<div class="content" in:customtransition out:fade>
+<h1>Contact this site</h1>
+
+<p>This is the 'contact' page. There's not much here.</p>
+</div>
